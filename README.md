@@ -1,4 +1,4 @@
-# tensorflow gpu speed test
+# Tensorflow GPU speed test
 Testing GPU speed using tensorflow 
 
 ## Setup for mac os (intel)
@@ -17,7 +17,7 @@ SYSTEM_VERSION_COMPAT=0 python -m pip install tensorflow-metal
 
 ### Install other packages
 ```bash
-python --m pip install ipykernel
-python --m pip install matplotlib
-python --m pip install tensorflow-datasets
+python -m pip install ipykernel
+python -m pip install matplotlib
+python -m pip install tensorflow-datasets
 ```
